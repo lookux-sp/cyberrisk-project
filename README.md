@@ -24,6 +24,8 @@ This project demonstrates Docker containerization using three services:
 docker build -t cyberrisk-site:v1 .
 ```
 
+![img_2.png](img_2.png)
+
 ## Run Custom Website
 
 ![img_1.png](img_1.png)
