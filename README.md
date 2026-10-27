@@ -26,6 +26,8 @@ docker build -t cyberrisk-site:v1 .
 
 ## Run Custom Website
 
+![img_1.png](img_1.png)
+
 ```bash
 docker run -d --name cyber-custom -p 8081:80 cyberrisk-site:v1
 ```
@@ -34,16 +36,7 @@ Open http://localhost:8081
 
 ## Docker Hub Images
 
-- [Nginx](https://hub.docker.com/r/talan78/cyber-nginx)
-- [PostgreSQL](https://hub.docker.com/r/talan78/cyber-postgres)
-- [CyberRisk Dashboard](https://hub.docker.com/r/talan78/cyberrisk-site)
+![img.png](img.png)
 
-All images use the `v1` tag.
 
-## Technologies
 
-Docker, Nginx, PostgreSQL, HTML, CSS, PyCharm.
-
-## Technologies
-
-Docker, Nginx, PostgreSQL, HTML, CSS, PyCharm.
