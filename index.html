@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CyberRisk Dashboard</title>
+<style>
+body {
+    background: #0f172a;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+h1 { color: #38bdf8; }
+.cards { display: flex; flex-wrap: wrap; gap: 20px; }
+.card {
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 12px;
+    flex: 1;
+    min-width: 180px;
+}
+.high { color: #f87171; }
+.medium { color: #fbbf24; }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+th, td {
+    padding: 15px;
+    border-bottom: 1px solid #334155;
+    text-align: left;
+}
+</style>
+</head>
+<body>
+<h1>CyberRisk Dashboard</h1>
+<p>Киберқауіптерді бақылау жүйесі</p>
+
+<div class="cards">
+    <div class="card">
+        <h2>3</h2>
+        <p>Барлық қауіптер</p>
+    </div>
+    <div class="card">
+        <h2 class="high">2</h2>
+        <p>Жоғары қауіп</p>
+    </div>
+    <div class="card">
+        <h2 class="medium">1</h2>
+        <p>Орташа қауіп</p>
+    </div>
+</div>
+
+<h2>Қауіптер тізімі</h2>
+<table>
+<tr>
+    <th>Қауіп</th>
+    <th>Деңгейі</th>
+    <th>Қорғаныс</th>
+</tr>
+<tr>
+    <td>SQL Injection</td>
+    <td class="high">HIGH</td>
+    <td>Parameterized queries</td>
+</tr>
+<tr>
+    <td>Phishing</td>
+    <td class="medium">MEDIUM</td>
+    <td>MFA</td>
+</tr>
+<tr>
+    <td>DDoS</td>
+    <td class="high">HIGH</td>
+    <td>Rate limiting</td>
+</tr>
+</table>
+
+<p>CyberRisk Project | Docker Lab 2026</p>
+</body>
+</html>
